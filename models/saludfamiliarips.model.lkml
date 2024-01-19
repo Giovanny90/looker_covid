@@ -41,7 +41,7 @@ explore: users {}
 
 explore: casos_positivos_por_ano {}
 
-explore: covid19_summary_geographic {}
+explore: covid19_por_pais {}
 
 explore: order_items {
   join: users {
