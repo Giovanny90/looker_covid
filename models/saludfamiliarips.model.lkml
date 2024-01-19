@@ -39,6 +39,9 @@ explore: distribution_centers {}
 
 explore: users {}
 
+explore: casos_positivos_por_ano {}
+
+
 explore: order_items {
   join: users {
     type: left_outer #_each
@@ -86,4 +89,3 @@ explore: orders {
     relationship: many_to_one
   }
 }
-
